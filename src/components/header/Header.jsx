@@ -11,7 +11,7 @@ function Header() {
           <img className={style.logoImg} src={Logo} alt="" />
         </div>
 
-        <div className={style.input}>
+        <div className={style.search}>
             <input
               className={style.inputSearch}
               type="text"
@@ -25,15 +25,15 @@ function Header() {
         </div>
 
         <div className={style.storeLinks}>
-          <a className="sign-up" href="">
+          <a className={style.signUp} href="">
             Cadastre-se
           </a>
           <a className={style.btnLogin} href="">
             Entrar
           </a>
-          <div>
+          <div className={style.cart}>
               <Cart/>
-            <spam>2</spam>
+            <span>2</span>
           </div>
         </div>
       </header>

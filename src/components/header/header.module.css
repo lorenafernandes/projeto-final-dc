@@ -29,6 +29,7 @@ header {
 .storeLinks {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .btnLogin {

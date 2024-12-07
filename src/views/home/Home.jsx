@@ -6,6 +6,7 @@ function Home() {
   return (
     <>
       <MainBanner />
+      <h3>Coleções em Destaque</h3>
       <div className={style.content}>
         <ProductDestack />
       </div>

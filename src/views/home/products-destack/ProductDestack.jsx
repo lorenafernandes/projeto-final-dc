@@ -6,7 +6,7 @@ import HeadsetGamerImg from "../../../assets/img/produtos/card-destack/headset-g
 
 function ProductDestack() {
   const productsDestack = [
-    { title: "Novo drop supreme", image: TshirtStarWarsImg, discount: 30 },
+    { title: "Novo Drop Supreme", image: TshirtStarWarsImg, discount: 30 },
     { title: "Coleção Adidas", image: NikeProducDestackImg, discount: 50 },
     { title: "Novo Beats Bass", image: HeadsetGamerImg, discount: 60 },
   ];

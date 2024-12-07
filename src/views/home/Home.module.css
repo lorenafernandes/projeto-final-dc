@@ -1,3 +1,11 @@
+h3 {
+  color: #474747;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  padding: 10px 10px 10px 50px;
+}
+
 .content {
   display: flex;
   justify-content: space-between;

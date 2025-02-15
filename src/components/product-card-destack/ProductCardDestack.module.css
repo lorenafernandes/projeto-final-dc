@@ -1,11 +1,4 @@
 .productCardDestack {
-  width: 100%;
-  padding: 35px;
-  margin: 0 10px;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-  padding-right: 18%;
   background-color: #d8e3f2;
 }
 
@@ -43,17 +36,4 @@
 
   cursor: pointer;
   border-radius: 8px;
-  background-color: #f5f5f5;
-}
-
-.productCardDestack * {
-  z-index: 1;
-  position: relative;
-}
-
-.productCardDestack img {
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-  position: absolute;
 }

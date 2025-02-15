@@ -17,6 +17,13 @@ function Home() {
 
   return (
     <>
+    <div className="table-actions">
+      <Link to="/dashboard/create-product">
+        <button className="btn-primary">
+          Cadastrar produto
+        </button>
+      </Link>
+    </div>
       <table>
         <thead>
           <th>Id</th>

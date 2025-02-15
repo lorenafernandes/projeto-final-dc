@@ -1,4 +1,6 @@
+import DollarIcon from "../../../assets/img/icons/dollar-symbol.png";
 import "./Home.css";
+
 function Home() {
   const addProduct = () => {
     const formProduct = document.forms[0];
@@ -19,23 +21,17 @@ function Home() {
 
   return (
     <>
-      <form id="form-product">
-        <div className="form-controller row">
-          <label htmlFor="product_name">Nome do produdo</label>
-          <input type="text" name="name" />
+      <div className="highlights gap-3 d-flex justify-content-between">
+        <div className="card w-100">
+          <div className="card-body d-flex">
+            <img className="icon-dollar" src={DollarIcon} alt="" />
+            <div className="info">
+              <p className="fw-light">Total de vendas</p>
+              <p className="fs-2">R$ 2.549,78</p>
+            </div>
+          </div>
         </div>
-        <div className="form-controller row">
-          <label htmlFor="product_name">Marca</label>
-          <input type="text" name="brand" />
-        </div>
-        <div className="form-controller row">
-          <label htmlFor="product_name">Descrição</label>
-          <input type="text" name="description" />
-        </div>
-        <button type="button" onClick={addProduct}>
-          Cadastrar
-        </button>
-      </form>
+      </div>
     </>
   );
 }

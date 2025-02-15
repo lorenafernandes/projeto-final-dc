@@ -14,7 +14,9 @@ function Home() {
       headers: {
         "Content-Type": "application/json",
       },
-    });
+    }).then((response) => {
+      Navigate(productListDashboard)
+    })
   };
 
   return (

@@ -5,7 +5,7 @@
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  padding-right: 15%;
+  padding-right: 18%;
   background-color: #d8e3f2;
 }
 
@@ -41,6 +41,7 @@
   color: #C92071;
   border: #f5f5f5;
 
+  cursor: pointer;
   border-radius: 8px;
   background-color: #f5f5f5;
 }
